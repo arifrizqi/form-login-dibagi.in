@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+body ,html {
+    font-family: 'Viga', sans-serif;
+    font-size: 15px;
+    background-color: white;
+    height: 100%;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form {
+    height: 500px;
+    width: 430px;
+    padding: 0 35px;
+    background-color: white;
+    border: none;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="username"],
+input[type="text"] {
+    border-radius: 20px;
+    border: 2px solid rgb(224, 224, 224);
+    min-width: 44px;
+    min-height: 44px;
+}
+
+.link {
+    display: inline-block;
+    min-width: 44px;
+    min-height: 44px;
+}
+
+
+.btn-login {
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 700;
+    min-width: 44px;
+    min-height: 44px;
+    margin-top: -40px;
+    background-color: #73A700;
+    color: white;
+}
+
+.btn-register {
+    margin-top: 10px;
+    height: 35px;
+    border-radius: 20px;
+    font-weight: 700;
+    min-width: 44px;
+    min-height: 44px;
+    margin-top: -20px;
+    background-color: #73A700;
+    color: white;
+}
+
+.link {
+    color: #73A700;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #73A700;
+    text-decoration: none;
+}
